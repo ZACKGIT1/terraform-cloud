@@ -9,10 +9,9 @@ terraform {
 }
 
 # Provider Block
-#provider "aws" {
-# region  = "ap-south-1"
-# profile = "default"
-#}
+provider "aws" {
+  region  = "ap-south-1"
+}
 
 # Create EC2 Instance
 resource "aws_instance" "my-ec2-vm" {
