@@ -20,6 +20,6 @@ resource "aws_instance" "my-ec2-vm" {
   #availability_zone = "ap-south-1b"
   availability_zone = "ap-south-1a"
   tags = {
-    "Name" = "web-2"
+    "Name" = "web-1"
   }
 }
